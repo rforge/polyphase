@@ -43,7 +43,8 @@ echo $contents; } ?>
 
 <!-- end of project description -->
 
-<p> This method accepts the genotype data, the relative physical position of the markers for species of any ploidy and returns the phased output.</p>
+<p> This method accepts the genotype data, the relative physical position of the markers for species of any ploidy and returns the phased output.
+This method requires installation of  boost, DAKOTA and a framework to support parallelization call TBB.</p>
 
 <p> The <strong>project summary page</strong> you can find <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/"><strong>here</strong></a>. </p>
 
